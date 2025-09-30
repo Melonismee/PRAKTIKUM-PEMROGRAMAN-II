@@ -1,5 +1,4 @@
 package modul1;
-import java.util.Iterator;
 import java.util.Scanner;
 
 public class PRAK104_2410817210024_MuhammadIbnuSina {
@@ -39,3 +38,4 @@ public class PRAK104_2410817210024_MuhammadIbnuSina {
 	}
 
 }
+
