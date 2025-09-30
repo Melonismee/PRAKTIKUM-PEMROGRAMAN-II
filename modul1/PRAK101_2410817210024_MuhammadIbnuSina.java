@@ -32,7 +32,7 @@ public class PRAK101_2410817210024_MuhammadIbnuSina {
 		System.out.print("Masukkan Berat Badan: ");
 		double beratBadan = scan.nextDouble();
 		
-		if (tinggiBadan < 0 && beratBadan < 0) {
+		if (tinggiBadan < 0 || beratBadan < 0) {
             System.out.println("Input Yang Anda Masukkan Tidak Valid.");
         } else {
             String bulanNama = Bulan[bulanLahir - 1];
@@ -44,3 +44,4 @@ public class PRAK101_2410817210024_MuhammadIbnuSina {
 	}
 
 }
+
