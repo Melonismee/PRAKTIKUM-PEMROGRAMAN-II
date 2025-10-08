@@ -1,10 +1,10 @@
 package PRAK201_2410817210024_MUHAMMADIBNUSINA;
 
 public class buah {
-	String nama;
-	Double berat;
-	Double harga;
-	Double jumlah;
+	private String nama;
+	private Double berat;
+	private Double harga;
+	private Double jumlah;
 
 	public buah(String nama, Double berat, Double harga, Double jumlah) {
 		this.nama = nama;
@@ -33,4 +33,5 @@ public class buah {
 		System.out.printf("Harga Setelah Diskon: Rp%.2f \n",hargaStlh);
 		
 	}
+
 }
